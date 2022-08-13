@@ -129,8 +129,13 @@ img {
   margin-left: 10px;
 }
 
+.contacts-icon-envelope {
+  fill: #757575;
+}
+
 .contacts-icon-smartphone {
   margin-left: 50px;
+  fill: #757575;
 }
 
 .header-tel {
