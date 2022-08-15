@@ -130,12 +130,12 @@ img {
 }
 
 .contacts-icon-envelope {
-  fill: #757575;
+  fill: currentColor;
 }
 
 .contacts-icon-smartphone {
   margin-left: 50px;
-  fill: #757575;
+  fill: currentColor;
 }
 
 .header-tel {
@@ -435,10 +435,10 @@ img {
 }
 
 .clients-item-link {
-  border: 2px solid #a2a4ab;
+  border: 1px solid #a2a4ab;
   border-radius: 4px;
   width: 170px;
-  height: 92;
+  height: 92px;
   display: flex;
   align-items: center;
   justify-content: center;
