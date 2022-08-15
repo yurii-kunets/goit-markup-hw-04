@@ -79,6 +79,8 @@ img {
 
 .header-contacts {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-logo {
@@ -115,11 +117,6 @@ img {
   color: #2196f3;
 }
 
-.contacts-icon-link {
-  justify-content: center;
-  align-items: center;
-}
-
 .header-email {
   font-weight: 500;
   font-size: 14px;
@@ -127,14 +124,17 @@ img {
   letter-spacing: 0.02em;
   color: #757575;
   margin-left: 10px;
+  display: flex;
 }
 
 .contacts-icon-envelope {
+  margin-right: 10px;
   fill: currentColor;
 }
 
 .contacts-icon-smartphone {
   margin-left: 50px;
+  margin-right: 10px;
   fill: currentColor;
 }
 
@@ -145,6 +145,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-left: 10px;
+  display: flex;
 }
 
 /* ---------HERO--------- */
@@ -385,8 +386,7 @@ img {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .portfolio-text {
@@ -466,12 +466,8 @@ img {
 
 .footer .container {
   display: flex;
-}
-
-.footer-logo-adress-section {
-  padding-top: 56px;
-  padding-bottom: 64px;
-  padding-left: 112px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -531,9 +527,9 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-social-section {
+.footer-icons {
   margin-left: 70px;
-  padding-top: 68px;
+  padding-top: 8px;
 }
 
 .webstudio-footer-soc-link {
