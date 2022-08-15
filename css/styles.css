@@ -315,6 +315,10 @@ img {
   column-gap: 10px;
 }
 
+.webstudio-team-icon {
+  fill: #afb1b8;
+}
+
 .webstudio-soc-link {
   width: 44px;
   height: 44px;
@@ -330,13 +334,9 @@ img {
   background-color: #0f99fe;
 }
 
-.webstudio-soc-link:hover .webstudio-soc-icon,
-.webstudio-soc-link:focus .webstudio-soc-icon {
+.webstudio-soc-link:hover .webstudio-team-icon,
+.webstudio-soc-link:focus .webstudio-team-icon {
   fill: #ffffff;
-}
-
-.webstudio-soc-icon {
-  fill: #afb1b8;
 }
 
 /* ---------PORTFOLIO--------- */
